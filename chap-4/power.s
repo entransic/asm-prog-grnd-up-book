@@ -11,8 +11,8 @@
 .globl _start
 
 _start:
-    pushl $3            # push the second argument
-    pushl $2            # push the first argument
+    pushl $3            # push the second argument - base number
+    pushl $2            # push the first argument - power
     call power          # call the funcion 'power'
     addl $8, %esp       # move the stack pointer back
     pushl %eax          # save the first answer before calling the next funcion
