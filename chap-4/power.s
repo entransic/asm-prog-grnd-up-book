@@ -1,5 +1,5 @@
 # PURPOSE: to illustrate the use of functions in assembly language
-#   this program will compute the value of 2^3 + 5^2
+# this program will compute the value of 2^3 + 5^2
 
 # Everything in the prgram will be stored in regsiters
 # so the data section will be empty
